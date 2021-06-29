@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63680698495",
+    "project_id": "ring-a63be",
+    "storage_bucket": "ring-a63be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63680698495:android:90124ef03637d24979874a",
+        "android_client_info": {
+          "package_name": "com.tnegishi.ring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63680698495-pme8mreclts7go4cgkj5hh1rbvd6hkie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tnegishi.ring",
+            "certificate_hash": "2ef5b938f8364f124b59761bce8efba8e1072550"
+          }
+        },
+        {
+          "client_id": "63680698495-f7a9i0pmvs63s4rl9sf13mvs5aqd15ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6fzSCizmmAirVun1XG9_qsAZ0mVG_ypE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63680698495-f7a9i0pmvs63s4rl9sf13mvs5aqd15ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
