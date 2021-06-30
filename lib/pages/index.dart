@@ -1,8 +1,11 @@
 import 'dart:async';
 
 import 'package:agora_rtc_engine/rtc_engine.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:ring/pages/auth.dart';
 import 'package:ring/pages/call.dart';
 
 class IndexPage extends StatefulWidget {
@@ -19,6 +22,8 @@ class IndexState extends State<IndexPage> {
 
   ClientRole? _role = ClientRole.Broadcaster;
 
+  static final googleLogin = GoogleSignIn(scopes: ['email']);
+
   @override
   void dispose() {
     // dispose input controller
@@ -28,9 +33,37 @@ class IndexState extends State<IndexPage> {
 
   @override
   Widget build(BuildContext context) {
+    final items = ['ログアウト'];
     return Scaffold(
       appBar: AppBar(
-        title: Text('Agora Flutter QuickStart'),
+        title: const Text('ルーム選択'),
+        actions: <Widget>[
+          PopupMenuButton<String>(
+            // initialValue: _selectedValue,
+            onSelected: (String s) async {
+              if (s == 'ログアウト') {
+                await FirebaseAuth.instance.signOut();
+                await GoogleSignIn(scopes: [
+                  'email',
+                ]).signOut();
+                await Navigator.of(context)
+                    .pushReplacement(MaterialPageRoute<AuthPage>(
+                        settings: const RouteSettings(name: "/auth"),
+                        builder: (context) {
+                          return AuthPage();
+                        }));
+              }
+            },
+            itemBuilder: (BuildContext context) {
+              return items.map((String s) {
+                return PopupMenuItem(
+                  value: s,
+                  child: Text(s),
+                );
+              }).toList();
+            },
+          )
+        ],
       ),
       body: Center(
         child: Container(

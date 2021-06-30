@@ -10,10 +10,14 @@ MERGED from [:agora_rtc_engine] /Users/tnegishi/ring/build/agora_rtc_engine/inte
 MERGED from [:firebase_auth] /Users/tnegishi/ring/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:permission_handler] /Users/tnegishi/ring/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /Users/tnegishi/ring/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_sign_in] /Users/tnegishi/ring/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_core] /Users/tnegishi/ring/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a20be4a04e20a7650c7478728658bc1e/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/b2225c14d8a5e2542145c4cdcad19fcb/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/82310945ea0b330d33d9de8babbada94/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a259cc2533c3f82706c94c31ad6608cd/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/dd341317ee0c836f3e714a8533ea18e1/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/4e743f6562e86b8e612b0b4019ecb071/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
@@ -61,8 +65,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tnegishi/.gradle/c
 MERGED from [androidx.print:print:1.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/734455655cb67c62e802de75a7dab785/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/f3830b57866e01e931d350601509bd0c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.agorabuilder:native-full-sdk:3.4.2] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a2712ea29527e333a47f873e17e70602/jetified-native-full-sdk-3.4.2/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9fbe687fafbecc1727e69653ffa44b44/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/tnegishi/ring/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/tnegishi/ring/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/tnegishi/ring/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -94,6 +98,8 @@ MERGED from [:firebase_analytics] /Users/tnegishi/ring/build/firebase_analytics/
 MERGED from [:firebase_analytics] /Users/tnegishi/ring/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
 MERGED from [:agora_rtc_engine] /Users/tnegishi/ring/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
 MERGED from [:agora_rtc_engine] /Users/tnegishi/ring/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:google_sign_in] /Users/tnegishi/ring/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/tnegishi/ring/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:14:5-67
@@ -166,6 +172,8 @@ MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/tnegishi/.gra
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/b2225c14d8a5e2542145c4cdcad19fcb/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/dd341317ee0c836f3e714a8533ea18e1/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
@@ -264,14 +272,22 @@ MERGED from [:permission_handler] /Users/tnegishi/ring/build/permission_handler/
 MERGED from [:permission_handler] /Users/tnegishi/ring/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/tnegishi/ring/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/tnegishi/ring/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/tnegishi/ring/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/tnegishi/ring/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/tnegishi/ring/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/tnegishi/ring/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a20be4a04e20a7650c7478728658bc1e/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a20be4a04e20a7650c7478728658bc1e/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/b2225c14d8a5e2542145c4cdcad19fcb/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:19.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/b2225c14d8a5e2542145c4cdcad19fcb/jetified-firebase-analytics-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/82310945ea0b330d33d9de8babbada94/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/82310945ea0b330d33d9de8babbada94/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a259cc2533c3f82706c94c31ad6608cd/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a259cc2533c3f82706c94c31ad6608cd/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/dd341317ee0c836f3e714a8533ea18e1/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
@@ -366,10 +382,10 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tnegishi/.gradle
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/f3830b57866e01e931d350601509bd0c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.agorabuilder:native-full-sdk:3.4.2] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a2712ea29527e333a47f873e17e70602/jetified-native-full-sdk-3.4.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.agorabuilder:native-full-sdk:3.4.2] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/a2712ea29527e333a47f873e17e70602/jetified-native-full-sdk-3.4.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9fbe687fafbecc1727e69653ffa44b44/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9fbe687fafbecc1727e69653ffa44b44/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/607f946bfd99fc22cd7cbe35efa222a6/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/tnegishi/ring/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/tnegishi/ring/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -526,6 +542,24 @@ ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/ca
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/39226147107c07d612c0b5c242740fda/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/ce972f4fde5c88a76bb19d488fc1418d/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
 ADDED from [com.google.firebase:firebase-firestore:23.0.1] /Users/tnegishi/.gradle/caches/transforms-2/files-2.1/9b84e16e205e131f44404e0ab409936d/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
 	android:value
