@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ring/model/akashi_user.dart';
 import 'package:ring/pages/auth.dart';
 import 'package:ring/pages/index.dart';
+import 'package:ring/utils/settings.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Sign In',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: StreamBuilder(
@@ -27,6 +29,9 @@ class MyApp extends StatelessWidget {
           }
 
           if (snapshot.hasData) {
+            akshiUser = AkashiUser(
+                FirebaseAuth.instance.currentUser!.displayName!,
+                FirebaseAuth.instance.currentUser!.photoURL!);
             return IndexPage();
           }
           return AuthPage();

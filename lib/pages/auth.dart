@@ -1,7 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:ring/model/akashi_user.dart';
 import 'package:ring/pages/index.dart';
+import 'package:ring/utils/settings.dart';
 
 class AuthPage extends StatelessWidget {
   Future<UserCredential> signInWithGoogle() async {
@@ -44,6 +46,10 @@ class AuthPage extends StatelessWidget {
                         content: Text('Google認証成功'),
                         duration: Duration(seconds: 1),
                       ));
+                      akshiUser = AkashiUser(
+                          FirebaseAuth.instance.currentUser!.displayName!,
+                          FirebaseAuth.instance.currentUser!.photoURL!);
+                      print(akshiUser);
                       await Navigator.of(context)
                           .pushReplacement(MaterialPageRoute<AuthPage>(
                               settings: const RouteSettings(name: "/index"),
