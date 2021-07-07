@@ -95,7 +95,13 @@ class IndexState extends State<IndexPage> {
       setState(() {
         nowAtendType = type;
       });
-    } else {}
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('AKASHIとの通信に失敗しました。'),
+        duration: Duration(seconds: 2),
+      ));
+      return;
+    }
   }
 
   @override
