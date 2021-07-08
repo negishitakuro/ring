@@ -52,7 +52,7 @@ class IndexState extends State<IndexPage> {
     final f = NumberFormat('00');
     final now = DateTime.now();
     final month = f.format(now.month);
-    final day = f.format(now.month);
+    final day = f.format(now.day);
 
     date = '2021/$month/$day: ';
 
@@ -89,7 +89,7 @@ class IndexState extends State<IndexPage> {
     final jsonResponse =
         convert.jsonDecode(response.body) as Map<String, dynamic>;
     print(jsonResponse);
-    bool isSuccess = jsonResponse['success'] as bool;
+    final isSuccess = jsonResponse['success'] as bool;
 
     if (isSuccess) {
       setState(() {
